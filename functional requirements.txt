@@ -1,0 +1,19 @@
+Arithmetic operations
+    - Handling negative and positive numbers
+    - Handling decimals and non-decimals
+    - Addition, subtraction, multiplication and division
+
+Input and output
+    - Accepting decimals, integers, real numbers
+    - Outputting values based on type
+
+Order of operations
+    - BODMAS
+
+Memory functions
+    - Store, recall, and clear previous values
+
+Error handling
+    - Division by zero
+    - Display error message
+    - Allow users to correct error message
