@@ -6,7 +6,7 @@
 
 ## ⌨️ Input and output
 - Only accept positive hexadecimal values up to 3 digits long
-- Only return positive values up to 6 digits
+- Only return positive hexadecimal values (with no decimals) up to 6 digits
 
 ## ❗ Error handling
 - Display error message if user attempts divisions by zero
