@@ -1,40 +1,18 @@
 # Functional Requirements
-
-## Arithmetic operations
-    - Addition, subtraction, multiplication and division operations
-    - Only handle hexadecimal numbers (positive or negative?)
-
-## Input and output
-    - Take negative numbers?
-    - Only accept input up to 3 digits
-    - Return answers up to 6 digits
-    - Do not return answers with decimal places
-
-## Order of operations
-    - BODMAS
-        1. Brackets
-        2. Orders
-        3. Division
-        4. Multiplication
-        5. Addition
-        6. Addition
-        7. Subtraction
-
-## Memory functions
-    - Store, recall, and clear previous answers and problems
-
-## Error handling
-    - Division by zero
-    - Display error message
-    - Allow users to correct error message
-
 | Category | Functional Requirements |
 | --- | --- |
-| Arithmetic Operations | - Addition, subtraction, multiplication and divison operations |
-|  | - Only handle hexadecimal numbers (positive or negative?)  |
-| Input and output | Content Cell |
-|  | - Take negative numbers? |
-|  | - Only accept input up to 3 digits |
-|  | - Return answers up to 6 digits |
-|  | - Do not return answers with decimal places |
-| Order of Operations | - BODMAS |
+| Basic operations | Perform addition, subtraction, multiplication and divison operations |
+|  | Only perform arithmetic operations on positive hexadecimal numbers |
+|  | Allow users to convert decimal numbers to hexadecimal numbers, and vice versa |
+| --- | --- |
+| Input and output | Only accept positive hexadecimal values up to 3 digits long |
+|  | Only return positive values up to 6 digits |
+| --- | --- |
+| Error handling | Display error message if user attempts divisions by zero |
+|  | Display error message to user if a non-hexdecimal number is entered |
+|  | Display error message to user if a negative hexdecimal number is entered |
+|  | Allow users to correct error after an error message is displayed to them |
+| --- | --- |
+| Memory functions | Store timestamps of previous questions |
+|  | Store answers of previous questions |
+|  | Store operands and operators of previous questions |
