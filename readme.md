@@ -1,6 +1,6 @@
 # Functional Requirements
 | Category | Functional Requirements |
-|  |  |
+| --- | --- |
 | 🧮 Basic operations | Perform addition, subtraction, multiplication and divison operations |
 |  | Only perform arithmetic operations on positive hexadecimal numbers |
 |  | Allow users to convert decimal numbers to hexadecimal numbers, and vice versa |
